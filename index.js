@@ -1,7 +1,7 @@
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "1f97812daeff8c96a42a0be082fb5398";
+const apiKey = //retrieve from postman appid;
 
 weatherForm.addEventListener("submit", async (event) => {
   event.preventDefault();
